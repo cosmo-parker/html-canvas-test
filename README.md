@@ -1,3 +1,7 @@
 ## HTML Template
-This is a template I use for learning HTML and CSS.
+This is a template for simple HTML and CSS.
+
+### Notes
+Will update the CSS to be responsive later.
+
 
