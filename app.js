@@ -32,15 +32,26 @@ function shape1() {
     ctx.fillStyle = '#4d4';
     ctx.lineWidth = 4;
     ctx.beginPath();
-    ctx.moveTo(100, 100)
-    ctx.lineTo(130, 350)
-    ctx.lineTo(300, 300)
-    ctx.lineTo(350, 130)
-    ctx.lineTo(290, 180)
+    ctx.moveTo(80, 120)
+    ctx.lineTo(110, 340)
+    ctx.lineTo(280, 270)
+    ctx.lineTo(330, 100)
+    ctx.lineTo(230, 180)
     ctx.closePath()
     ctx.stroke()
     ctx.fill();
 }
+
+function shape1_eye() {
+    ctx.strokeStyle = '#a4f'
+    ctx.fillStyle = '#a0b'
+    ctx.lineWidth = 4
+    ctx.beginPath()
+    ctx.arc(150, 200, 10, 0, 2*Math.PI)
+    ctx.stroke()
+    ctx.fill()
+}
+
 
 function shape2() {
     ctx.strokeStyle = '#adf'
@@ -59,7 +70,7 @@ function shape2() {
     ctx.fill();
 }
 
-function shape3() {
+function shape2_eye() {
     ctx.strokeStyle = '#fff'
     ctx.fillStyle = '#f00'
     ctx.lineWidth = 4
@@ -67,15 +78,15 @@ function shape3() {
     ctx.arc(370, 380, 10, 0, 2*Math.PI)
     ctx.stroke()
     ctx.fill()
-
 }
 
 
 background()
 shape0()
 shape1()
+shape1_eye()
 shape2()
-shape3()
+shape2_eye()
 
 
 
